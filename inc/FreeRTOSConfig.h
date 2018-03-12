@@ -90,10 +90,6 @@ NVIC value of 255. */
 #define configCOM1_RX_BUFFER_LENGTH		128
 #define configCOM1_TX_BUFFER_LENGTH		128
 
-
-
-
-
 #define vPortSVCHandler SVC_Handler
 #define xPortPendSVHandler PendSV_Handler
 #define xPortSysTickHandler SysTick_Handler
